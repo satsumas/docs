@@ -36,7 +36,7 @@ lifecycle for summary data within TensorBoard.
 
 First, create the TensorFlow graph that you'd like to collect summary
 data from, and decide which nodes you would like to annotate with
-[summary operations](../api_guides/python/summary.md).
+[summary operations](../api_docs/python/tf/summary.md).
 
 For example, suppose you are training a convolutional neural network for
 recognizing MNIST digits. You'd like to record how the learning rate
@@ -53,7 +53,7 @@ this data by attaching
 the gradient outputs and to the variable that holds your weights, respectively.
 
 For details on all of the summary operations available, check out the docs on
-[summary operations](../api_guides/python/summary.md).
+[summary operations](../api_docs/python/tf/summary.md).
 
 Operations in TensorFlow don't do anything until you run them, or an op that
 depends on their output. And the summary nodes that we've just created are
